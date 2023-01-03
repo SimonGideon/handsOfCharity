@@ -1,3 +1,60 @@
-body {
-  background: green;
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Andika', sans-serif;
+
+}
+
+
+.humberger {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* ----media query */
+@media (max-width: 475px) {
+  .navSect {
+    display: block;
+  }
+
+  .humberger {
+    display: block;
+    width: 12%;
+    cursor: pointer;
+  }
+
+  .close {
+    display: block;
+    width: 10%;
+    background-color: aliceblue;
+  }
+  #navbrand {
+    font-size: 1.2rem;
+
+  }
+
+  #header {
+    height: 100vh;
+    background-color: rgba(35, 79, 149, 0.82);
+    color: white;
+  }
+
+  #navItems, 
+  .navSect ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
 }
