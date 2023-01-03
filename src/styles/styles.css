@@ -24,15 +24,15 @@ li {
     display: block;
     width: 12%;
     cursor: pointer;
+    float: left;
   }
 
   .close {
     display: block;
-    width: 10%;
-    filter: rgb(0, 0, 0); /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-    filter: grayscale(1);
+    width: 9%;
+    float: right;
   }
+
   #navbrand {
     font-size: 1.2rem;
   }
@@ -41,6 +41,11 @@ li {
     height: 100vh;
     background-color: rgba(35, 79, 149, 0.82);
     color: white;
+    padding: 12px;
+  }
+
+  #navItems  {
+    padding-top: 5em;
   }
 
   #navItems,

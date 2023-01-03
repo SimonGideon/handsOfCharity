@@ -5,10 +5,8 @@ const navRender = () => {
   const header = document.getElementById('header');
   let html = '';
   html += `
-        <div class="buttons">
-            <img src="${humburger}" alt="humberger" class="humberger">
-            <img src="${closeBtn}" alt="close" class="close">
-        </div>
+        <img src="${humburger}" alt="humberger" class="humberger">
+        <img src="${closeBtn}" alt="close" class="close">
         <div id="navItems">
         <h2 id="navbrand">Compassion</h2>
         <nav class="navSect">
