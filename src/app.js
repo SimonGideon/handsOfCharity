@@ -3,6 +3,8 @@ import components from './components.js';
 import './styles/styles.css';
 // Navbar
 import navRender from './modules/navbar.js';
+import hero from './modules/hero.js';
 
+hero();
 navRender();
 document.body.appendChild(components());
