@@ -8,7 +8,7 @@ const help = () => {
     <h1>Help Someone Today</h1>
     <img src="${helpImg}" alt="helpImg" class="helpImg"/>
     <p> Your kind donation will allow us to continue fighting for everyone's health, education, and financial security in your neighborhood and around the world.</p>
-    <button type='submit'>Donate Now<button>
+    <button type="submit">Donate Now</button>
     </div>
   `;
   section.innerHTML = html;

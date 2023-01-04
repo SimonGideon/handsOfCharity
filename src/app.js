@@ -6,9 +6,11 @@ import hero from './modules/hero.js';
 import coreValues from './modules/coreValues.js';
 import upcommingEvents from './modules/upcomingEvent.js';
 import help from './modules/help.js';
+import footer from './modules/footer.js';
 
 hero();
 navRender();
 coreValues();
 upcommingEvents();
 help();
+footer();

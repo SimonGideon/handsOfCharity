@@ -133,6 +133,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 0 30px;
   }
   /* help */
   .help{
@@ -152,5 +153,41 @@ li {
 
   .help h2 {
     color: #f7a93c;
+  }
+
+  .help button {
+    margin: 20px;
+    padding: 12px;
+    border: 3px solid #f7a93c;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+
+  }
+
+  /* footer */
+  .foot-data {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .foot-data img {
+    width: 100%;
+  }
+
+  .foot-data h4 {
+    text-decoration: underline;
+  }
+
+  .foot-data ul {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+  }
+
+  .en img {
+    width: 10%;
   }
 }
