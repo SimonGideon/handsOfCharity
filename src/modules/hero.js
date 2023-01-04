@@ -1,4 +1,5 @@
 import heroImg from '../images/a-new-design.jpg';
+import headerimg from '../images/heading.png';
 
 const hero = () => {
   const main = document.querySelector('main');
@@ -9,7 +10,7 @@ const hero = () => {
             <img src="${heroImg}" class="heroImg" alt="hero image">
         </div>
             <div class="hero-text">
-                <h1>CareClub</h1>
+                <img src="${headerimg}" class="headerimg" alt="header image">
                 <h2>Giving is Good Medicine</h2>
                 <p>Our sucess is measured in terms of lives changed</p>
             </div>

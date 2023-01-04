@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Andika", sans-serif;
 }
+---va
 
 .humberger {
   display: none;
@@ -63,5 +64,38 @@ li {
  */
   .heroImg {
     width: 100%;
+  }
+
+  .hero {
+    background-color: #5f9ed5;
+  }
+  .headerimg {
+    width: 100%;
+  }
+
+  .hero-text {
+    text-align: center;
+    color: white;
+    padding: 20px 40px;
+  }
+
+  .core-values {
+    background-color: #234e95;
+    color: white;
+    padding: 30px 40px;
+    width: 100%;
+    padding: 20;
+  }
+
+  .core-values * {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .core-values img {
+    width: 30%;
+    padding-top: 20px;
   }
 }
