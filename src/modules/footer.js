@@ -7,7 +7,6 @@ import google from '../images/google-plus.png';
 
 const footer = () => {
   const footer = document.querySelector('footer');
-  const Daite = document.write(`2006 - ${new Date().getFullYear()}`);
   let html = '';
   html += `
     <div class="foot-data">

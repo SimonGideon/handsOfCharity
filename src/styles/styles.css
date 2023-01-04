@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Andika", sans-serif;
-}
----va
-
-.humberger {
-  display: none;
 }
 
 li {
@@ -69,6 +65,7 @@ li {
   .hero {
     background-color: #5f9ed5;
   }
+
   .headerimg {
     width: 100%;
   }
@@ -84,7 +81,6 @@ li {
     color: white;
     padding: 30px 40px;
     width: 100%;
-    padding: 20;
   }
 
   .core-values * {
@@ -98,7 +94,8 @@ li {
     width: 30%;
     padding-top: 20px;
   }
-/* upcomming events */
+
+  /* upcomming events */
   #event-ico {
     width: 6%;
     height: 8%;
@@ -135,8 +132,9 @@ li {
     align-items: center;
     padding: 30px 0 30px;
   }
+
   /* help */
-  .help{
+  .help {
     display: flex;
     background-color: #234e95;
     flex-direction: column;
@@ -162,7 +160,6 @@ li {
     color: white;
     background-color: transparent;
     border-radius: 10px;
-
   }
 
   /* footer */
@@ -173,6 +170,7 @@ li {
     align-items: center;
     text-align: center;
   }
+
   .foot-data img {
     width: 100%;
   }
