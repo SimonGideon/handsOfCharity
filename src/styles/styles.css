@@ -134,5 +134,23 @@ li {
     flex-direction: column;
     align-items: center;
   }
+  /* help */
+  .help{
+    display: flex;
+    background-color: #234e95;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
 
+  .help img {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .help h2 {
+    color: #f7a93c;
+  }
 }
