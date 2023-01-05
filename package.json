@@ -24,6 +24,7 @@
     "@babel/preset-env": "^7.19.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^9.0.1",
+    "copyright-header": "^0.4.6",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -45,5 +46,5 @@
   "dependencies": {
     "babe": "^0.0.1"
   },
-  "description": ""
+  "description": "<a name=\"readme-top\"></a>"
 }

@@ -1,8 +1,16 @@
-import components from './components.js';
 // styles
 import './styles/styles.css';
 // Navbar
 import navRender from './modules/navbar.js';
+import hero from './modules/hero.js';
+import coreValues from './modules/coreValues.js';
+import upcommingEvents from './modules/upcomingEvent.js';
+import help from './modules/help.js';
+import footer from './modules/footer.js';
 
+hero();
 navRender();
-document.body.appendChild(components());
+coreValues();
+upcommingEvents();
+help();
+footer();
